@@ -1,0 +1,15 @@
+p {
+  color: orangered;
+  text-shadow: teal;
+  font-size: 220%;
+a[href*="google"] {
+  color: yellow;
+}
+a:hover,
+a:focus {
+  color: violet;
+}
+p::first-letter {
+  font-size: 140%;
+  font-weight: bold;
+}
